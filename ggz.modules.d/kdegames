@@ -1,0 +1,24 @@
+[Games]
+*Engines* = Reversi Dots
+Dots = p2
+Reversi = p1
+
+[p1]
+Author = Mario Weilguni, Inge Wallin, Dmitry Suzdalev
+CommandLine = kreversi
+Frontend = kde
+Homepage = http://games.kde.org/
+Name = KReversi
+ProtocolEngine = Reversi
+ProtocolVersion = 4
+Version = 2.0
+
+[p2]
+Author = Matt Williams
+CommandLine = ksquares
+Frontend = kde
+Homepage = http://games.kde.org/
+Name = KSquares
+ProtocolEngine = Dots
+ProtocolVersion = 4
+Version = 0.3

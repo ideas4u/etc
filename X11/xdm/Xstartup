@@ -1,0 +1,4 @@
+#!/bin/sh
+# Register a login (derived from GiveConsole as follows:)
+#
+/usr/bin/sessreg  -a -w "/var/log/wtmp" -u "/var/run/utmp" 	-x "XDMCONFIGDIR/Xservers" -l $DISPLAY -h "" $USER

@@ -1,0 +1,15 @@
+
+#
+# /etc/fstab
+# Created by anaconda on Sun Sep 14 09:53:30 2014
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+UUID=34c41deb-c466-4850-b296-3e28e83dde9b /                       ext4    defaults        1 1
+UUID=c291557c-3864-4c73-89bc-35d7b2759a03 swap                    swap    defaults        0 0
+tmpfs                   /dev/shm                tmpfs   defaults        0 0
+devpts                  /dev/pts                devpts  gid=5,mode=620  0 0
+sysfs                   /sys                    sysfs   defaults        0 0
+proc                    /proc                   proc    defaults        0 0
+/dev/sda3		/mydata			ext4	defaults,acl	0 0
